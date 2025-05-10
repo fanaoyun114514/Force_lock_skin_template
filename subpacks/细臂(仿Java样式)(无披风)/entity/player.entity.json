@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "materials": {
+        "default": "entity_alphatest",
+        "cape": "entity_alphatest",
+        "animated": "player_animated"
+      },
+      "textures": {
+        "lock_skin": "自定义细臂皮肤"
+      },
+      "geometry": {
+        "lock_skin": "geometry.humanoid.lock_skin_java"
+      },
+      "render_controllers": [
+        {
+          "controller.render.lock_skin": "!variable.is_first_person||variable.is_first_person"
+        },
+        {
+          "controller.render.player.lock_skin": "!variable.is_first_person && !variable.map_face_icon"
+        }
+      ],
+      "enable_attachables": true
+    }
+  }
+}
