@@ -1,0 +1,50 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "",
+        "name": "强制锁定皮肤模板",
+        "uuid": "64d95b94-f667-46a3-b09b-bfce6bb999ad",
+        "version": [ 2, 0, 0 ],
+        "min_engine_version": [ 1, 17, 0 ]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "resources",
+            "uuid": "a5803594-12dd-4c8a-acef-b4d9cf4b7705",
+            "version": [ 2, 0, 0 ]
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "粗臂(无披风)",
+            "name": "粗臂(无披风)",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "粗臂",
+            "name": "粗臂",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "细臂(仿Java样式)(无披风)",
+            "name": "细臂(仿Java样式)(无披风)",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "细臂(仿Java样式)",
+            "name": "细臂(仿Java样式)",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "细臂(无披风)",
+            "name": "细臂(无披风)",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "细臂",
+            "name": "细臂",
+            "memory_tier": 1
+        }
+    ]
+}
